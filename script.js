@@ -182,7 +182,7 @@ height
   ? console.log("YAY! Height is defined")
   : console.log("Height is undefined");
   */
- //! Truthy values
+//! Truthy values
 //  console.log(Boolean('Ahmed'));
 //  console.log(Boolean(13));
 //  console.log(Boolean({}));
@@ -195,6 +195,32 @@ height
 // }
 
 //? Equality Operators == vs === vs =
-//! = Assignment value 
+//! = Assignment value
 //! == Compare value
-//! === Compare Value and Type 
+//! === Compare Value and Type
+
+// const age = "18";
+// if (age === 18) console.log("You just became an adult :D (strict)");
+
+// if (age == 18) console.log("You just became an adult :D (loose)");
+//? if Statment
+// const favouriteNumber = prompt("What's your favourit number?");
+// if (favouriteNumber == 23) {
+//   console.log("cool! 23 is an amzing number!");
+// } else if (favouriteNumber == 7) {
+//   console.log("number 7 also a cool number");
+// } else if (favouriteNumber == 9) {
+//   console.log("number 9 also a cool number");
+// } else {
+//   console.log("Number is not 23 or 7 ");
+// }
+// if (favouriteNumber != 23) console.log("why not 23?");
+
+//? Boolean Logic (and / or / Not Operators)
+
+// const hasDriverLicense = true; // A
+// const hasGoodVision = true; // B
+
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(hasDriverLicense !== hasGoodVision);
